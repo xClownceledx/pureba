@@ -1,0 +1,64 @@
+/* Estilos para el encabezado */
+h1 {
+    color: #ff69b4; /* rosa claro */
+    font-size: 3em;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #8b008b; /* violeta oscuro */
+    font-size: 2em;
+  }
+  
+  /* Estilos para el formulario de contacto */
+  form {
+    margin-top: 30px;
+  }
+  
+  label {
+    display: block;
+    color: #8b008b; /* violeta oscuro */
+    font-size: 1.2em;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  input[type="submit"] {
+    background-color: #ff69b4; /* rosa claro */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para la información de contacto */
+  ul {
+    margin-top: 30px;
+    padding-left: 20px;
+  }
+  
+  li {
+    color: #8b008b; /* violeta oscuro */
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: #ff69b4; /* rosa claro */
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

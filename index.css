@@ -1,0 +1,85 @@
+/* Estilos para el body */
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Estilos para el header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ff69b4;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+}
+
+header a span:first-child {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+header a span:last-child {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+header nav li {
+  margin: 0 15px;
+}
+
+header nav li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* Estilos para el main */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+article img {
+  display: block;
+  max-width: 100%;
+  margin: 20px 0;
+}
+
+article p {
+  margin: 0 0 20px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+article p:last-child {
+  margin-bottom: 0;
+}
+
+article h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+article span {
+  color: #a3dceb;
+  font-weight: 700;
+}

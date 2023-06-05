@@ -1,0 +1,51 @@
+body {
+    background-color: #F8E8FA; /* un tono rosado claro */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* una fuente fácil de leer */
+  }
+  
+  h1 {
+    text-align: center; /* centrado */
+    font-size: 3em; /* tamaño grande */
+    color: #7C4DFF; /* un tono de morado */
+    margin-top: 50px; /* separación superior */
+  }
+  
+  p {
+    text-align: center; /* centrado */
+    font-size: 1.5em; /* tamaño medio */
+    margin-top: 30px; /* separación superior */
+  }
+  
+  form {
+    margin: auto; /* centrado */
+    width: 50%; /* ancho */
+    border: 2px solid #7C4DFF; /* borde */
+    padding: 20px; /* espacio interno */
+    border-radius: 10px; /* bordes redondeados */
+  }
+  
+  label {
+    display: block; /* en línea vertical */
+    font-size: 1.2em; /* tamaño medio */
+    color: #7C4DFF; /* un tono de morado */
+    margin-bottom: 10px; /* separación inferior */
+  }
+  
+  input[type="text"], input[type="password"] {
+    width: 100%; /* ancho completo */
+    padding: 10px; /* espacio interno */
+    border: none; /* sin borde */
+    border-radius: 5px; /* bordes redondeados */
+    margin-bottom: 20px; /* separación inferior */
+  }
+  
+  input[type="submit"] {
+    background-color: #7C4DFF; /* un tono de morado */
+    color: #FFF; /* blanco */
+    padding: 10px; /* espacio interno */
+    border: none; /* sin borde */
+    border-radius: 5px; /* bordes redondeados */
+    font-size: 1.2em; /* tamaño medio */
+    cursor: pointer; /* apuntador de cursor */
+  }
+  
